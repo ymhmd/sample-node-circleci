@@ -1,0 +1,7 @@
+{
+  "Login" : {
+    "emailFieldXpath" : "//*[@data-testid = 'royal_email']",
+    "passwordFieldXpath" : "//*[@data-testid = 'royal_pass']",
+    "loginButtonXpath" : "//*[@data-testid = 'royal_login_button']"
+  }
+}

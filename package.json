@@ -1,0 +1,25 @@
+{
+  "name": "protractorautomation",
+  "version": "1.0.0",
+  "description": "Protractor Typescript automation framework",
+  "main": "config.js",
+  "dependencies": {
+    "@types/jasmine": "^3.4.0",
+    "@types/node": "^12.7.2",
+    "node": "^12.9.1",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.9",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node node_modules\\protractor\\bin\\webdriver-manager update --versions.chrome=78.0.3904.97",
+    "pretest": "npm run tsc",
+    "test": "protractor ConvertedJSFiles/config.js",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "Protractor",
+    "Typescript"
+  ]
+}
