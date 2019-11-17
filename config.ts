@@ -3,8 +3,8 @@ import {Config } from 'protractor';
 var HtmlReporter = require('protractor-beautiful-reporter');
 
 export let config: Config = {
+    directConnect: true,
     capabilities: {
-        directConnect: true,
         browserName: 'chrome',
         chromeOptions: {
             args: ["--headless", "--disable-gpu", "--window-size=1200x800"]
