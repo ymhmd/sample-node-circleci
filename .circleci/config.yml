@@ -16,10 +16,17 @@ jobs:
 
     working_directory: ~/repo
 
+    parameters:
+      install-chrome:
+        default: true
+        description: >
+          Install Google Chrome? Note: only the latest stable release can be
+          installed, as Google does not maintain a public archive of previous
+          releases.
+        type: boolean
+
     steps:
       - checkout
-
-      - install-chrome
 
       # Download and cache dependencies
       - restore_cache:
