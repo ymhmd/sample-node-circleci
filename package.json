@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "node node_modules\\protractor\\bin\\webdriver-manager update --versions.chrome=78.0.3904.97",
+    "postinstall": "node node_modules/protractor/bin/webdriver-manager update --versions.chrome=78.0.3904.97",
     "pretest": "npm run tsc",
     "test": "protractor ConvertedJSFiles/config.js",
     "tsc": "tsc"
