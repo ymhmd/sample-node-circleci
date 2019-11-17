@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "node node_modules/protractor/bin/webdriver-manager update",
+    "postinstall": "node node_modules/protractor/bin/webdriver-manager@latest update",
     "pretest": "npm run tsc",
     "test": "protractor ConvertedJSFiles/config.js",
     "tsc": "tsc"
