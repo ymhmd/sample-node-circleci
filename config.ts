@@ -7,7 +7,7 @@ export let config: Config = {
     capabilities: {
         browserName: 'chrome',
         chromeOptions: {
-            args: ["--headless", "--disable-gpu", "--window-size=1200x800"]
+            args: ["--headless", "--disable-gpu"]
         }
     },
     framework: 'jasmine',
