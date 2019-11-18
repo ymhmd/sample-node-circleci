@@ -25,7 +25,7 @@ describe('First Test Suite', function () {
     it('Test Case 2', async function () {
         await loginPage.navigateLoginPage();
 
-        expect(1).toBe(2);
+        expect(1).toBe(1);
     });
 
 });
